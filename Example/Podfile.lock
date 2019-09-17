@@ -1,0 +1,16 @@
+PODS:
+  - HDHyber (0.1.0)
+
+DEPENDENCIES:
+  - HDHyber (from `../`)
+
+EXTERNAL SOURCES:
+  HDHyber:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HDHyber: 5cbe019c7417be4033bdce0c4589c35b474cec4f
+
+PODFILE CHECKSUM: b61a77785646ce9f14d1e698ddaebe28e9031c87
+
+COCOAPODS: 1.8.0.beta.2

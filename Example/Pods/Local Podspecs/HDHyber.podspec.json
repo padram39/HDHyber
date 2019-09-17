@@ -1,0 +1,22 @@
+{
+  "name": "HDHyber",
+  "version": "0.1.0",
+  "summary": "A short description of HDHyber.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pedram/HDHyber",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pedram": "Mozafaripedram@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pedram/HDHyber.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HDHyber/Classes/**/*"
+}

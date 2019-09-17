@@ -1,0 +1,6 @@
+framework module HDHyber {
+  umbrella header "HDHyber-umbrella.h"
+
+  export *
+  module * { export * }
+}

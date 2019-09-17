@@ -12,14 +12,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44E586F247438B9FBEFE553F /* HDHyber.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HDHyber.podspec; path = ../HDHyber.podspec; sourceTree = "<group>"; };
-		451147BAB10E0807E5C73366 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		44E586F247438B9FBEFE553F /* HDHyber.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HDHyber.podspec; path = ../HDHyber.podspec; sourceTree = "<group>"; };
+		451147BAB10E0807E5C73366 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5AE371B2A8592AB1109A00AD /* Pods-HDHyber_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDHyber_Tests.release.xcconfig"; path = "Target Support Files/Pods-HDHyber_Tests/Pods-HDHyber_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* HDHyber_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDHyber_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		94467ACAC260EA7F494D621C /* Pods_HDHyber_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HDHyber_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D494033BF040189FB49FBF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9D494033BF040189FB49FBF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DF93575B158D11C8D1538BD0 /* Pods-HDHyber_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDHyber_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HDHyber_Tests/Pods-HDHyber_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,6 @@
 				DF93575B158D11C8D1538BD0 /* Pods-HDHyber_Tests.debug.xcconfig */,
 				5AE371B2A8592AB1109A00AD /* Pods-HDHyber_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,12 +130,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MQTWP92Y45;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -328,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF93575B158D11C8D1538BD0 /* Pods-HDHyber_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MQTWP92Y45;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -350,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AE371B2A8592AB1109A00AD /* Pods-HDHyber_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MQTWP92Y45;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
